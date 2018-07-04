@@ -1,0 +1,32 @@
+{
+  "name": "blogNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "debug": "REACT_DEBUGGER='rndebugger-open --open --port 8081' npm start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-debugger-open": "^0.3.17",
+    "react-navigation": "^2.5.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
