@@ -1,6 +1,6 @@
 const initialAuthState = { isLoggedIn: false };
 
-export const auth = (state = initialAuthState, action) => {
+export const memory = (state = initialAuthState, action) => {
   switch (action.type) {
     case 'Discover':
       return { ...state, isLoggedIn: true };

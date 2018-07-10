@@ -1,7 +1,7 @@
-// import { NativeModules } from 'react-native'
 import { createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { AppReducer } from './reducer';
+// import { NativeModules } from 'react-native'
 
 // if (__DEV__) {
   // console.log(NativeModules, 'NativeModules');

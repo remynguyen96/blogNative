@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import { auth } from '../containers/Login/reducer';
+import { memory } from '../containers/Memory/reducer';
+import { homepage } from '../containers/Homepage/reducer';
 
 export const AppReducer = combineReducers({
-  auth,
+  memory,
+  homepage,
 });
